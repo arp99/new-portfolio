@@ -1,4 +1,5 @@
 import { Button } from "./Button.js";
+import Link from "next/link";
 
 const Section3 = () => {
   return (
@@ -16,9 +17,11 @@ const Section3 = () => {
             </h1>
             <p className="text-lg md:text-xl text-pallet1-blueGrotto">
               Have a look at <br />
-              my open sourced Web apps{" "}
+              my open sourced Web apps
             </p>
-            <Button>SEE MY WORK</Button>
+            <Button>
+              <Link href="/projects">SEE MY WORK</Link>
+            </Button>
           </div>
         </div>
         <div className="w-full h-1/2 lg:w-1/2 lg:h-full lg:py-16 border-0 border-t-2 lg:border-l-2 border-pallet1-babyBlue">
@@ -30,7 +33,9 @@ const Section3 = () => {
               I write about <br />
               Frontend, new libraries etc
             </p>
-            <Button>READ MY BLOGS</Button>
+            <Button>
+              <Link href="/blogs">READ MY BLOGS</Link>
+            </Button>
           </div>
         </div>
       </div>
