@@ -28,6 +28,13 @@ export default function Projects() {
           liveLink="https://plovex-store.netlify.app/"
           sourceLink="https://github.com/arp99/plovex-store"
         />
+        <Card
+          imgSrc="/assets/projects/quiz-mania.png"
+          title="Quiz Mania"
+          description="A Quiz application to test you on frontend"
+          liveLink="https://plovex-quiz-mania.netlify.app/"
+          sourceLink="https://github.com/arp99/quiz-mania/tree/dev"
+        />
       </section>
     </section>
   );
