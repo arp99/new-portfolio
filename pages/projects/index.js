@@ -35,6 +35,13 @@ export default function Projects() {
           liveLink="https://plovex-quiz-mania.netlify.app/"
           sourceLink="https://github.com/arp99/quiz-mania/tree/dev"
         />
+         <Card
+          imgSrc="/assets/projects/quiz-mania.png"
+          title="Devtcha"
+          description="A Social Media app where you can post your thoughts, follow people to see what they are thinking"
+          liveLink="https://devtcha-frontend.netlify.app/"
+          sourceLink="https://github.com/arp99/devtcha"
+        />
       </section>
     </section>
   );
